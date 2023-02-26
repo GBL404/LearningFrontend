@@ -15,3 +15,23 @@ body{
     font-family: "Ubuntu";
     animation: rotate 6s infinite alternate linear;
 }
+.circle{
+    position: fixed;
+    top: -50vmin;
+    left: -50vmin;
+    width: 100vmin;
+    height: 100vmin;
+    border-radius: 47% 53% 61% 39% / 45% 51% 49% 55%
+    background: #65c8ff;
+}
+
+.circle-after{
+    content: "";
+    position: inherit;
+    right: -50vmin;
+    bottom: -50vmin;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: #143d81;
+}
