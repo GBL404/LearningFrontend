@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: #43a047;
+}
+
+label{
+    display: block;
+}
+
+span{
+    position: relative;
+    font-size: 22px;
+    bottom: -1px;
+}
+
+button{
+    background-color: #43a047;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+input[type="color"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 70px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 80vmin;
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: 50%
+    left: 50%;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.opt-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
