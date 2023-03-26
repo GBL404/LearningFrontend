@@ -68,7 +68,14 @@ gridButton.addEventListener("click", () => {
                     !isTouchDevice() ? e.clientY : e.touches[0].clientY,
                 ).id;
                 checker(elementId);
-            }
-        }
+        });
+
+        col.addEventListener(events[deviceType].up, () => {
+            draw = false;
+        });
+        div,appendChild(col);
     }
-})
+
+    container.appendChild(div);
+}
+});
